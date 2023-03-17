@@ -1,7 +1,7 @@
-import React from 'react';
-import { StaticQuery, graphql } from 'gatsby';
-import Layout from '../layouts/index';
-import Img from 'gatsby-image';
+import React from "react";
+import { StaticQuery, graphql } from "gatsby";
+import Layout from "../layouts/index";
+import Img from "gatsby-image";
 
 const Home = () => (
   <StaticQuery
@@ -35,7 +35,7 @@ const Home = () => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <Layout
         site={data.site}
         seo={{ ...data.seo, ...data.site.faviconMetaTags }}
@@ -53,11 +53,11 @@ const Home = () => (
               >
                 <div className="Product__image">
                   <Img sizes={product.image.sizes} />
-                </div>{' '}
+                </div>{" "}
                 <div className="Product__details">
                   <div className="Product__name">
                     {product.name}
-                    <div className="Product__price">{product.price}€</div>
+                    <div className="Product__price">{product.price}$</div>
                   </div>
                   <span className="Product__buy">Buy now</span>
                 </div>
