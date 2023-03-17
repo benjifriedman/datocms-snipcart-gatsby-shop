@@ -47,3 +47,5 @@ The final result will be saved in the `public` directory.
 ## Further demo options
 
 This project is also available as a demo on [Gatsby Cloud](https://www.gatsbyjs.com/). This will allow you to test the [Gatsby preview](https://www.datocms.com/blog/live-preview-changes-on-gatsby-preview) capabilities in no time.
+
+text to trigger deploy
