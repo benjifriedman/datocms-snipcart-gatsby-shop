@@ -58,6 +58,9 @@ const Home = () => (
                   <div className="Product__name">
                     {product.name}
                     <div className="Product__price">${product.price}</div>
+                    {/* <div className="Product__price">
+                      ${product.description.value}
+                    </div> */}
                   </div>
                   <span className="Product__buy">Buy now</span>
                 </div>

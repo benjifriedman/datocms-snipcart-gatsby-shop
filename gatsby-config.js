@@ -9,14 +9,13 @@ module.exports = {
     {
       resolve: `gatsby-source-datocms`,
       options: {
-        apiToken: process.env.DATO_READONLY_API_KEY,
+        apiToken: "e8787cf6edac08b2ee99318722bd5e",
       },
     },
     {
       resolve: "gatsby-plugin-snipcart-advanced",
       options: {
-        publicApiKey:
-          "OWE3MmZmMjQtNTk3Yi00OThhLWEwMmUtZDY4ZWM4NzIwYzZiNjM2NjM0Mzc1NzE0MTUwNzI1",
+        publicApiKey: "0b687e83847ac890e44cf2177f0bc2",
         autopop: true,
       },
     },
